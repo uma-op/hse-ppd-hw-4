@@ -1,0 +1,13 @@
+{
+    "first_name": "Дмитрий",
+    "last_name": "Кузнецов",
+    "birth_date": "2028-04-12",
+    "phone_number": "+79001112233",
+    "email": "dima@kuznetsov.ru",
+    "reasons": [
+        {
+            "reason_type": "нет доступа к сети",
+            "detection_time": "2027-01-01T00:00:00"
+        }
+    ]
+}

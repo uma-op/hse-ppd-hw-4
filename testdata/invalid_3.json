@@ -1,0 +1,11 @@
+{
+    "first_name": "Ольга",
+    "last_name": "Попова",
+    "birth_date": "1979-11-05",
+    "phone_number": "+79991112233445566",
+    "email": "olga@popova.org",
+    "reasons": {
+        "reason_type": "не приходят письма",
+        "detection_time": "2026-11-05T12:00:00"
+    }
+}

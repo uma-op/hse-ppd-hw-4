@@ -1,0 +1,13 @@
+{
+    "first_name": "Алексей",
+    "last_name": "Смирнов",
+    "birth_date": "2000-01-01",
+    "phone_number": "+7-999-123-45-67",
+    "email": "alexey@invalid-email",
+    "reasons": [
+        {
+            "reason_type": "сломался роутер",
+            "detection_time": "2026-11-05T15:42:00"
+        }
+    ]
+}

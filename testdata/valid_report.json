@@ -1,0 +1,21 @@
+{
+    "first_name": "Сергей",
+    "last_name": "Сергеев",
+    "birth_date": "2010-10-10",
+    "phone_number": "+79999999999",
+    "email": "sergeev@gmail.ru",
+    "reasons": [
+        {
+            "reason_type": "нет доступа к сети",
+            "detection_time": "2026-11-05T15:42:00.1"
+        },
+        {
+            "reason_type": "не работает телефон",
+            "detection_time": "2026-11-05T15:42:00.003"
+        },
+        {
+            "reason_type": "не приходят письма",
+            "detection_time": "2026-12-05T15:42:00.123"
+        }
+    ]
+}

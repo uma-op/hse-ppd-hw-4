@@ -1,0 +1,13 @@
+{
+    "first_name": "АлеКСандр",
+    "last_name": "Иванов-Сидоров",
+    "birth_date": "1993-08-24",
+    "phone_number": "+79456789012",
+    "email": "alex@post.com",
+    "reasons": [
+        {
+            "reason_type": "PHONE",
+            "detection_time": "2026-11-05T10:00:00"
+        }
+    ]
+}

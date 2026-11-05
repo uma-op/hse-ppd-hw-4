@@ -1,0 +1,17 @@
+{
+    "first_name": "Елена",
+    "last_name": "Петрова",
+    "birth_date": "1985-12-31",
+    "phone_number": "79119876543",
+    "email": "elena@petrova.ru",
+    "reasons": [
+        {
+            "reason_type": "не работает телефон",
+            "detection_time": "2026-11-05T12:00:00+03:00"
+        },
+        {
+            "reason_type": "не приходят письма",
+            "detection_time": "2026-11-05T14:30:15.123Z"
+        }
+    ]
+}
