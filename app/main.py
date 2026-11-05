@@ -11,4 +11,6 @@ storage = FileManager(Path("/tmp"))
 @app.post("/report/")
 async def report(report: Report):
     dump = report.model_dump_json()
-    storage.record(dump.encode())
+    record_path = storage.record(dump.encode())
+
+    return {"filepath": record_path.absolute()}

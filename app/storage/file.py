@@ -11,7 +11,9 @@ class FileManager:
 
         self.__storing_directory = storing_direcotry
 
-    def record(self, data: bytes):
+    def record(self, data: bytes) -> Path:
         record_name = f"{uuid7()}.json"
         record_path = self.__storing_directory / record_name
         record_path.write_bytes(data)
+
+        return record_path
