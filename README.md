@@ -106,3 +106,5 @@ $> uv run fastapi dev
 ```shell
 $> curl http://127.0.0.1:8000/report/ --json @testdata/valid_report.json
 ```
+
+После этого в директории /tmp должны появиться файл с запросом вида <uuidv7>.json

@@ -22,6 +22,8 @@ class Reason(BaseModel):
         if value > datetime.now():
             raise ValueError("Future reason time")
 
+        return value
+
 
 class Report(BaseModel):
     first_name: str = Field(pattern=NAME_PATTERN)
@@ -37,3 +39,5 @@ class Report(BaseModel):
     def validate_birth_date(cls, value: date):
         if value > date.today():
             raise ValueError("Future birth date")
+
+        return value
