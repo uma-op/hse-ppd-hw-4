@@ -19,6 +19,9 @@ class Reason(BaseModel):
     @field_validator("detection_time")
     @classmethod
     def validate_detection_time(cls, value: datetime):
+        if value.tzinfo is not None:
+            raise ValueError("Timezone is forbidden")
+
         if value > datetime.now():
             raise ValueError("Future reason time")
 
