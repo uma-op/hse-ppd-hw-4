@@ -109,4 +109,8 @@ $> uv run fastapi dev
 $> curl http://127.0.0.1:8000/report/ --json @testdata/valid_report.json
 ```
 
-После этого в директории /tmp должны появиться файл с именем вида _uuidv7_.json
+После этого в директории /tmp должны появиться файл с именем вида _uuidv7_.json. Директорию для хранения можно изменить задав переменную окружения HW4_DIR, например:
+
+```shell
+$> export HW4_DIR=/tmp/data
+```
